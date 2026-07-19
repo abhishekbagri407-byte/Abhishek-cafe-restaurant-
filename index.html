@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhishek Cafe & Restaurant</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+body{background:#0b0b0b;color:#fff}
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.75);
+backdrop-filter:blur(15px);
+z-index:999;
+}
+.logo{
+font-size:28px;
+font-weight:700;
+color:#f5c542;
+}
+nav a{
+text-decoration:none;
+color:#fff;
+margin-left:20px;
+transition:.3s;
+}
+nav a:hover{
+color:#f5c542;
+}
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.75)),url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600') center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+.hero h1{
+font-size:60px;
+color:#f5c542;
+}
+.hero p{
+margin:20px auto;
+max-width:700px;
+font-size:18px;
+}
+.btn{
+display:inline-block;
+padding:14px 35px;
+margin:10px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+background:#f5c542;
+color:#000;
+transition:.4s;
+}
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 0 25px gold;
+}
+section{
+padding:90px 8%;
+}
+.title{
+text-align:center;
+font-size:40px;
+color:#f5c542;
+margin-bottom:40px;
+}
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+.card{
+background:#1a1a1a;
+padding:30px;
+border-radius:18px;
+transition:.4s;
+text-align:center;
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px rgba(245,197,66,.7);
+}
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:15px;
+}
+.contact{
+text-align:center;
+line-height:2;
+}
+footer{
+background:#000;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+.float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:15px 18px;
+border-radius:50%;
+font-size:28px;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">☕ Abhishek Cafe</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#menu">Menu</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Abhishek Cafe & Restaurant</h1>
+
+<p>Delicious Food • Great Taste • Best Service in Satna</p>
+
+<a class="btn" href="tel:+919201351374">📞 Call Now</a>
+
+<a class="btn" target="_blank"
+href="https://maps.app.goo.gl/18P1KEXUcMrHJmaF9">
+📍 Get Directions
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Popular Menu</h2>
+
+<div class="cards">
+
+<div class="card">
+<h2>🍕 Pizza</h2>
+<p>Cheesy & Fresh</p>
+</div>
+
+<div class="card">
+<h2>🍔 Burger</h2>
+<p>Crispy & Juicy</p>
+</div>
+
+<div class="card">
+<h2>☕ Coffee</h2>
+<p>Fresh Brew</p>
+</div>
+
+<div class="card">
+<h2>🍜 Chinese</h2>
+<p>Delicious Taste</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="title">Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=700">
+
+<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700">
+
+<img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=700">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 class="title">Visit Us</h2>
+
+<p>📍 North Pateri, VITS College Road,<br>In Front of Anand Palace, Satna (M.P.)</p>
+
+<p>📞 +91 92013 51374</p>
+
+<p>
+<a class="btn" target="_blank"
+href="https://www.instagram.com/abhishek.cafe.restaurant.19">
+Instagram
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<h2>Abhishek Cafe & Restaurant</h2>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<a class="float"
+href="https://wa.me/919201351374">💬</a>
+
+</body>
+</html>
